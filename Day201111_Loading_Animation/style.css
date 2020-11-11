@@ -40,7 +40,7 @@ body {
   height: 100%;
   background: #38c1ff;
   border-radius: 50%;
-  animation: animate 5s liner infinite;
+  animation: animate 5s linear infinite;
 }
 .container .box .circle:nth-child(2) {
   background: #ff3378;
