@@ -9,20 +9,77 @@
 <body>
     <section>
         <div class="box">
-            div <div class="imgBx"></div>
+            <div class="imgBx">
+                <img src="img/img1.jpg" alt="">
+                <h2>Click Again to Close</h2>
+                <div class="content">
+                    <h3>Image Caption One</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Est distinctio accusantium fugiat non error
+                        sequi voluptatem voluptas iste, vero et assumenda
+                        doloremque.</p>
+                </div>
+            </div>
         </div>
         <div class="box">
-            div <div class="imgBx"></div>
+            <div class="imgBx">
+                <img src="img/img2.jpg" alt="">
+                <h2>Click Again to Close</h2>
+                <div class="content">
+                    <h3>Image Caption Two</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Est distinctio accusantium fugiat non error
+                        sequi voluptatem voluptas iste, vero et assumenda
+                        doloremque.</p>
+                </div>
+            </div>
         </div>
         <div class="box">
-            div <div class="imgBx"></div>
+            <div class="imgBx">
+                <img src="img/img3.jpg" alt="">
+                <h2>Click Again to Close</h2>
+                <div class="content">
+                    <h3>Image Caption Three</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Est distinctio accusantium fugiat non error
+                        sequi voluptatem voluptas iste, vero et assumenda
+                        doloremque.</p>
+                </div>
+            </div>
         </div>
         <div class="box">
-            div <div class="imgBx"></div>
+            <div class="imgBx">
+                <img src="img/img4.jpg" alt="">
+                <h2>Click Again to Close</h2>
+                <div class="content">
+                    <h3>Image Caption Four</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Est distinctio accusantium fugiat non error
+                        sequi voluptatem voluptas iste, vero et assumenda
+                        doloremque.</p>
+                </div>
+            </div>
         </div>
         <div class="box">
-            div <div class="imgBx"></div>
+            <div class="imgBx">
+                <img src="img/img5.jpg" alt="">
+                <h2>Click Again to Close</h2>
+                <div class="content">
+                    <h3>Image Caption Five</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Est distinctio accusantium fugiat non error
+                        sequi voluptatem voluptas iste, vero et assumenda
+                        doloremque.</p>
+                </div>
+            </div>
         </div>
     </section>
+    <script>
+        let imgBx = document.querySelectorAll('.imgBx');
+        imgBx.forEach(popup => popup.addEventListener('click',() =>
+        {
+            popup.classList.toggle('active')
+        }))
+    </script>
 </body>
 </html>
