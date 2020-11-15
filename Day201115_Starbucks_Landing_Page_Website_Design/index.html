@@ -31,9 +31,9 @@
             </div>
         </div>
         <ul class="thumb">
-            <li><img src="img/thumb1.png" alt=""></li>
-            <li><img src="img/thumb2.png" alt=""></li>
-            <li><img src="img/thumb3.png" alt=""></li>
+            <li><img src="img/thumb1.png" alt="" onclick="imgSlider('img/img1.png')"></li>
+            <li><img src="img/thumb2.png" alt="" onclick="imgSlider('img/img2.png')"></li>
+            <li><img src="img/thumb3.png" alt="" onclick="imgSlider('img/img3.png')"></li>
         </ul>
         <ul class="sci">
             <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
@@ -41,5 +41,10 @@
             <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
         </ul>
     </section>
+    <script>
+        function imgSlider(anything){
+            document.querySelector('.starbucks').src = anything;
+        }
+    </script>
 </body>
 </html>
