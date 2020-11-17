@@ -28,6 +28,7 @@ body {
   margin: 30px;
   background: #fff;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
 }
 .container .box .imgBx {
   position: absolute;
@@ -39,11 +40,12 @@ body {
   justify-content: center;
   align-items: center;
   transition: 0.5s;
-  transition-delay: 0.5s;
+  transform: scale(1) translateY(0);
+  /* transition-delay: 0.5s; */
 }
 .container .box:hover .imgBx {
-  transform: scale(0);
-  transition-delay: 0s;
+  transform: scale(1) translateY(-100%);
+  /* transition-delay: 0s; */
 }
 .container .box .imgBx img {
   max-width: 100px;
@@ -62,12 +64,12 @@ body {
   text-align: center;
   transition: 0.5s;
   background: #ff3579;
-  transform: scale(0);
-  transition-delay: 0s;
+  transform: scale(1) translateY(calc(100% - 5px));
+  /* transition-delay: 0s; */
 }
 .container .box:hover .content {
   transform: scale(1);
-  transition-delay: 0.5s;
+  /* transition-delay: 0.5s; */
 }
 .container .box:nth-child(2) .content {
   background: #2ba1ff;
