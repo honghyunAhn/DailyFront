@@ -41,6 +41,11 @@ body {
   visibility: hidden;
   opacity: 0;
 }
+.action .menu.active {
+  top: 80px;
+  visibility: visible;
+  opacity: 1;
+}
 .action .menu::before {
   content: "";
   position: absolute;
