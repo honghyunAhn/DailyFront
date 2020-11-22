@@ -105,3 +105,12 @@ section .container .user .formBx form .signup a {
   text-decoration: none;
   color: #677eff;
 }
+section .container .signupBx {
+  pointer-events: none;
+}
+section .container .signupBx .formBx {
+  left: 100%;
+}
+section .container .signupBx .imgBx {
+  left: -100%;
+}
