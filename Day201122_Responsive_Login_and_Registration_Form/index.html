@@ -17,7 +17,7 @@
                         <input type="text" name="" placeholder="Username">
                         <input type="password" name="" placeholder="Password">
                         <input type="submit" name="" value="Login">
-                        <p class="signup">Don't have an account ? <a href="#">Sign Up.</a></p>
+                        <p class="signup">Don't have an account ? <a href="#" onclick="toggleForm();">Sign Up.</a></p>
                     </form>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                         <input type="password" name="" placeholder="Create Password">
                         <input type="password" name="" placeholder="Confirm Password">
                         <input type="submit" name="" value="Sign Up">
-                        <p class="signup">Already have an account ? <a href="#">Sign in.</a></p>
+                        <p class="signup">Already have an account ? <a href="#" onclick="toggleForm();">Sign in.</a></p>
                     </form>
                 </div>
                 
@@ -38,5 +38,11 @@
             </div>
         </div>
     </section>
+    <script>
+        function toggleForm(){
+            var container = document.querySelector('.container');
+            container.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>

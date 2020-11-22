@@ -108,9 +108,43 @@ section .container .user .formBx form .signup a {
 section .container .signupBx {
   pointer-events: none;
 }
+section .container.active .signupBx {
+  pointer-events: initial;
+}
 section .container .signupBx .formBx {
   left: 100%;
 }
+section .container.active .signupBx .formBx {
+  left: 0;
+}
 section .container .signupBx .imgBx {
   left: -100%;
+}
+section .container.active .signupBx .imgBx {
+  left: 0;
+}
+
+section .container .signinBx .formBx {
+  left: 0;
+}
+section .container.active .signinBx .formBx {
+  left: 100%;
+}
+section .container .signinBx .imgBx {
+  left: 0;
+}
+section .container.active .signinBx .imgBx {
+  left: -100%;
+}
+
+@media (max-width: 991px) {
+  section .container {
+    max-width: 400px;
+  }
+  section .container .imgBx {
+    display: none;
+  }
+  section .container .user .formBx {
+    width: 100%;
+  }
 }
