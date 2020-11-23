@@ -57,12 +57,15 @@ a.close {
   margin: 0;
   padding: 0;
   color: #262626;
+  text-align: center;
 }
 .content p {
   color: #262626;
+  text-align: center;
 }
 .content {
   transform: perspective(1000px) rotateY(90deg) scale(0);
+  transition: 0.5s;
 }
 .active {
   transform: perspective(1000px) rotateY(0deg) scale(1);
