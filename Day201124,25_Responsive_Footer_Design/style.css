@@ -35,7 +35,7 @@ footer .container .sec {
 footer .container .sec.abouts {
   width: 40%;
 }
-footer .container .sec.abouts h2 {
+footer .container h2 {
   position: relative;
   color: #fff;
   font-weight: 500;
