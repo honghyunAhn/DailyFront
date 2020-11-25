@@ -124,3 +124,30 @@ footer p {
 .contact .info li a:hover {
   color: #fff;
 }
+.copyringhtText {
+  width: 100%;
+  background: #181818;
+  padding: 8px 100px;
+  text-align: center;
+  color: #999;
+}
+@media (max-width: 991px) {
+  footer {
+    padding: 40px;
+  }
+  footer .container {
+    flex-direction: column;
+  }
+  footer .container .sec {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  footer .container .sec.abouts,
+  .quickLinks,
+  .contact {
+    width: 100%;
+  }
+  .copyringhtText {
+    padding: 8px 40px;
+  }
+}
