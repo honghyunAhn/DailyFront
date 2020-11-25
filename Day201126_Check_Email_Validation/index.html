@@ -11,10 +11,23 @@
         <h3>Email Validation Check</h3>
         <form action="#" id="form">
             <div class="inputBox">
-                <input type="text" id="email" placeholder="Enter Email Address">
+                <input type="text" id="email" placeholder="Enter Email Address" onkeyup="validate();">
                 <span class="indicator"></span>
             </div>
         </form>
     </div>
+    <script>
+        function validate(){
+            const form = document.getElementById('form');
+            const email = document.getElementById('email').value;
+            const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/
+
+            if(email.match(pattern)){
+                form.classList.add('valid')
+            }else{
+                form.classList.remove('valid')
+            }
+        }
+    </script>
 </body>
 </html>
