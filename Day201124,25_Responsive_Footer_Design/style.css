@@ -98,3 +98,29 @@ footer p {
 .quickLinks ul li a:hover {
   color: #fff;
 }
+.contact {
+  width: calc(35% - 60px);
+  margin-right: 0 !important;
+}
+.contact .info {
+  position: relative;
+}
+.contact .info li {
+  display: flex;
+  margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.contact .info li span {
+  color: #999;
+}
+.contact .info li span a {
+  color: #999;
+  text-decoration: none;
+}
+.contact .info li a:hover {
+  color: #fff;
+}
