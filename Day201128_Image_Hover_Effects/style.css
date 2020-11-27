@@ -48,3 +48,17 @@ body {
 .container .clip:hover {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
+.container .clip .content {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 70%;
+  padding: 20px;
+  background: #fff;
+  opacity: 0;
+  transition: 0.5s;
+}
+.container .clip:hover .content {
+  bottom: 0;
+  opacity: 1;
+}
