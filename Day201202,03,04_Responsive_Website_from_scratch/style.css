@@ -124,6 +124,7 @@
   font-size: 20px;
   letter-spacing: 1px;
 }
+
 .technology {
   background: #3f8ffc;
   width: 100%;
@@ -142,4 +143,26 @@
 }
 .technology .imgBx img {
   max-width: 100%;
+}
+
+.client {
+  background: #162c3b;
+  padding: 100px;
+  text-align: center;
+}
+.client .imgBx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.client .imgBx img {
+  max-width: 200px;
+  margin: 20px;
+  opacity: 0.25;
+  cursor: pointer;
+}
+.client .imgBx img:hover {
+  opacity: 1;
 }
