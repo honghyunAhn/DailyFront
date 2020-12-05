@@ -78,3 +78,14 @@ section video {
   height: 100%;
   object-fit: cover;
 }
+.glass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  backdrop-filter: blur(15px);
+  z-index: 1;
+  box-shadow: 10px 0 15px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
