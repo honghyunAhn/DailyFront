@@ -10,9 +10,15 @@
     <section>
         <header>
             <a href="#" class="logo">Water.</a>
-        <div class="toggle"></div>
+        <div class="toggle" onclick="menuToggle();"></div>
         </header>
         <video src="img/water.mp4" autoplay muted loop></video>
     </section>
+    <script>
+        function menuToggle(){
+            const toggleMenu = document.querySelector('.toggle');
+            toggleMenu.classList.toggle('active')
+        }
+    </script>
 </body>
 </html>
