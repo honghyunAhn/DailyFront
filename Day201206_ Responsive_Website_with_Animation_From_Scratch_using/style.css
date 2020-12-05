@@ -48,6 +48,13 @@ header .toggle {
   justify-content: center;
   align-items: center;
 }
+header .toggle.active {
+  background: url(img/close.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 25px;
+}
 header .toggle:before {
   content: "Menu";
   position: absolute;
@@ -59,6 +66,9 @@ header .toggle:before {
   padding: 2px 5px;
   background: #fff;
   color: #111;
+}
+header .toggle.active::before {
+  content: "Close";
 }
 section video {
   position: absolute;
