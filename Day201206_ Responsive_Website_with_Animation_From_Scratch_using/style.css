@@ -88,4 +88,11 @@ section video {
   z-index: 1;
   box-shadow: 10px 0 15px rgba(0, 0, 0, 0.1);
   transition: 0.5s;
+  transition-delay: 1s;
+}
+section.active .glass {
+  width: 100%;
+  backdrop-filter: blur(20px);
+  box-shadow: 10px 0 15px rgba(0, 0, 0, 0.5);
+  transition-delay: 0s;
 }
