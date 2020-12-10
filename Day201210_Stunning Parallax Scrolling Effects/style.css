@@ -8,6 +8,7 @@
 body {
   background: #111;
   padding-bottom: 300px;
+  overflow-x: hidden;
 }
 body:before {
   content: "Parallax";
@@ -40,6 +41,9 @@ section .container {
   justify-content: space-between;
   align-items: center;
 }
+section:nth-child(even) .container {
+  flex-direction: row-reverse;
+}
 section .container .imgBx {
   position: relative;
   width: 800px;
@@ -67,4 +71,7 @@ section .container .content {
   color: #fff;
   box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
   border-bottom: 6px solid #4ac7ff;
+}
+section:nth-child(even) .container .content {
+  left: 0;
 }
