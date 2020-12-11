@@ -15,7 +15,7 @@
             <div class="toggle"></div>
         </header>
         <img src="img/bg.jpg" alt="">
-        <div class="content">
+        <div class="content" data-0-top="opacity:0;left:100px;" data-200-top="opacity:1;left:0px;">
             <h2>Sucess by Design</h2>
             <p>
                 Lorem ipsum dolor sut amet, consectetur adipisicing elit, sed do eiusmod
@@ -29,8 +29,8 @@
 
     <section class="about">
         <div class="contentBx">
-            <h2 class="heading">About Us</h2>
-            <p class="text">
+            <h2 class="heading" data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:500px;">About Us</h2>
+            <p class="text" data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:-500px;">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna alique. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -43,7 +43,7 @@
                 proident.
             </p>
         </div>
-        <div class="imgBx"></div>
+        <div class="imgBx" data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:200px;"></div>
     </section>
 
     <!-- Services -->
@@ -193,5 +193,8 @@
         </ul>
     </section>
     <script src="skrollr.js"></script>
+    <script>
+        var s = skrollr.init();
+    </script>
 </body>
 </html>
