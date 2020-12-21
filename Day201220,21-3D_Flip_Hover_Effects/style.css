@@ -50,8 +50,17 @@
   height: 100%;
   position: relative;
   transform-origin: left;
-  transition: 1s;
+  z-index: 1;
+  transition: 1s cubic-bezier(0.15, 1.7, 0.84, 0.58);
 }
 .card:hover .imgBox {
   transform: rotateY(-135deg);
+}
+.card .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 32.5px;
+  z-index: -1;
 }
