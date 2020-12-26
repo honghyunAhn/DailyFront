@@ -2,6 +2,30 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+}
+ul {
+  position: relative;
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+ul li a {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  color: #fff;
+  transition: 0.2s;
+}
+ul li:hover a {
+  color: #2196f3;
 }
