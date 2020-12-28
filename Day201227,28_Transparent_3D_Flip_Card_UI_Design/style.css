@@ -134,3 +134,36 @@ section::before {
   height: 60px;
   background: #000;
 }
+.card .face.back .ccvtext {
+  position: absolute;
+  top: 120px;
+  left: 30px;
+}
+.card .face.back .ccvtext h5 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.card .face.back .ccvtext .whiteBar {
+  position: relative;
+  width: 400px;
+  height: 40px;
+  background: #fff;
+  margin-top: 5px;
+}
+.card .face.back .ccvtext .ccv {
+  position: relative;
+  top: -35px;
+  left: 395px;
+  background: #ccc;
+  color: #111;
+  width: 50px;
+  height: 30px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
