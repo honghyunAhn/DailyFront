@@ -167,3 +167,13 @@ section::before {
   justify-content: center;
   align-items: center;
 }
+.card .face.back .text {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  color: #fff;
+  font-size: 10px;
+  line-height: 1.4em;
+  font-weight: 300;
+}
