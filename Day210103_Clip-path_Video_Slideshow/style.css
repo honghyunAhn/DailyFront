@@ -35,10 +35,22 @@
   background: #00d;
   clip-path: polygon(67% 0, 100% 0, 100% 100%, 67% 100%);
 }
+.container .box.active {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+.container .box:hover {
+  z-index: 1000;
+}
 .container .content {
   padding: 20px;
   margin: 20px;
   z-index: 10;
+  opacity: 0;
+  transition: 1s;
+}
+.container .box.active .content {
+  opacity: 1;
+  transition-delay: 0.5s;
 }
 .container .content h2 {
   color: #fff;
