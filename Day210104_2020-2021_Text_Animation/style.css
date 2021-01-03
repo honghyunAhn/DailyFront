@@ -39,3 +39,15 @@ section .box h2 span:nth-child(2) {
   line-height: 1em;
   font-size: 2em;
 }
+@keyframes animate {
+  0% {
+    transform: translateY(-70%);
+  }
+  55%,
+  90% {
+    transform: translateY(70%);
+  }
+  100% {
+    transform: translateY(-70%);
+  }
+}
