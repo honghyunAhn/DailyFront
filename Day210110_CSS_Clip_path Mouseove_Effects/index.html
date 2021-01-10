@@ -12,5 +12,12 @@
         <h2>How it is?</h2>
         <div class="circle"></div>
     </section>
+    <script>
+        const pos = document.documentElement;
+        pos.addEventListener('mousemove', e => {
+            pos.style.setProperty('--x', e.clientX + 'px');
+            pos.style.setProperty('--y', e.clientY + 'px');
+        })
+    </script>
 </body>
 </html>
