@@ -32,3 +32,7 @@ section h2 {
   transition: 0.1s;
   clip-path: circle(50px at var(--x) var(--y));
 }
+section h2:hover ~ .circle {
+  background: #64ff14;
+  clip-path: circle(200px at var(--x) var(--y));
+}
