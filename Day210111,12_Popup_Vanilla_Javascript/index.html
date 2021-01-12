@@ -20,10 +20,20 @@
             <a href="#" onclick="toggle()">Read More</a>
         </div>
     </div>
+    <div id="popup">
+        <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        <p>
+            Mauris nec ipsum sit amet augue iaculis venenatis. Proin vitae nibh hendrerit, auctor turpis ut, auctor ligula. Nullam dapibus libero eleifend nulla tincidunt, ut feugiat arcu finibus. Quisque urna enim, dictum a sodales eget, tristique nec mi. Suspendisse eget consequat massa. Integer condimentum pellentesque pretium. Suspendisse ultrices est vitae feugiat venenatis. Quisque vel condimentum ante, a efficitur velit.
+        </p>
+        <a href="#" onclick="toggle()">Close</a>
+    </div>
     <script>
         function toggle(){
             var blur = document.getElementById('blur');
-            blur.classList.toggle('active')
+            blur.classList.toggle('active');
+
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
         }
     </script>
 </body>
