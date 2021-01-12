@@ -16,6 +16,11 @@
   transition: 0.5s;
   padding: 20px;
 }
+.container#blur.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
 .container .content {
   position: relative;
   max-width: 800px;
