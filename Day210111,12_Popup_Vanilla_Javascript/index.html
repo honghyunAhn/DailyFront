@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="blur">
         <div class="content">
             <h2>
                 Lorem ipsum dolor sit amet, 
@@ -17,8 +17,14 @@
                 Sed eu nunc in est dapibus aliquam. 
             </h2>
             <img src="img/img.jpg">
-            <a href="#">Read More</a>
+            <a href="#" onclick="toggle()">Read More</a>
         </div>
     </div>
+    <script>
+        function toggle(){
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active')
+        }
+    </script>
 </body>
 </html>
