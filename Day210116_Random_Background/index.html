@@ -10,5 +10,28 @@
     <section>
         <h2>Random</h2>
     </section>
+    <script>
+        function changeBg(){
+
+            const images = [
+                'url("imgs/1.jpg")',
+                'url("imgs/2.jpg")',
+                'url("imgs/3.jpg")',
+                'url("imgs/4.jpg")',
+                'url("imgs/5.jpg")',
+                'url("imgs/6.jpg")',
+                'url("imgs/7.jpg")',
+                'url("imgs/8.jpg")',
+                'url("imgs/9.jpg")',
+                'url("imgs/10.jpg")',
+            ]
+
+            const section = document.querySelector('section')
+            const bg = images[Math.floor(Math.random() * images.length)];
+            section.style.backgroundImage = bg;
+        }
+
+        setInterval(changeBg, 1000)
+    </script>
 </body>
 </html>
