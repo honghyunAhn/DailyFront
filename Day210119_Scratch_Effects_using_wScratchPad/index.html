@@ -8,5 +8,17 @@
 </head>
 <body>
     <div id="scratch"></div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <script src="wScratchPad.min.js"></script>
+
+    <script>
+        $('#scratch').wScratchPad({
+    size        : 150,          // The size of the brush/scratch.
+    bg          : 'imgs/img2.jpg',  // Background (image path or hex color).
+    fg          : 'imgs/img1.jpg',  // Foreground (image path or hex color).
+    });
+    </script>
 </body>
 </html>
