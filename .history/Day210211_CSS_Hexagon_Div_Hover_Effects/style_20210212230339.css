@@ -75,6 +75,3 @@ body {
   opacity: 0;
   transition: 0.5s;
 }
-.container .hexagon:hover .shape .content {
-  opacity: 1;
-}
