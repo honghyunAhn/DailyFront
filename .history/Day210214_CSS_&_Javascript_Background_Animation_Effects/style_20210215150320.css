@@ -34,7 +34,7 @@ section h2 {
   position: relative;
   display: block;
   width: 5vw;
-  height: 5vh;
+  height: 5vw;
   animation: animate 0.75s ease-in-out forwards;
 }
 .banner .blocks:nth-child(even) {
@@ -43,8 +43,8 @@ section h2 {
 .banner .blocks:nth-child(7n + 3) {
   animation: animate 2.5s ease-in-out forwards;
 }
-.banner .blocks:nth-child(7n + 7) {
-  animation: animate 1.5s ease-in-out forwards;
+.banner .blocks:nth-child(7n + 3) {
+  animation: animate 1s ease-in-out forwards;
 }
 @keyframes animate {
   0% {

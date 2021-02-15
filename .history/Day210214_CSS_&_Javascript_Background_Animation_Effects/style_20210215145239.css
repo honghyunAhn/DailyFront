@@ -34,17 +34,8 @@ section h2 {
   position: relative;
   display: block;
   width: 5vw;
-  height: 5vh;
+  height: 5vw;
   animation: animate 0.75s ease-in-out forwards;
-}
-.banner .blocks:nth-child(even) {
-  animation: animate 1s ease-in-out forwards;
-}
-.banner .blocks:nth-child(7n + 3) {
-  animation: animate 2.5s ease-in-out forwards;
-}
-.banner .blocks:nth-child(7n + 7) {
-  animation: animate 1.5s ease-in-out forwards;
 }
 @keyframes animate {
   0% {
@@ -53,15 +44,9 @@ section h2 {
   }
   50% {
     opacity: 1;
-    background: url(bg.jpg);
-    background-position: center;
-    background-attachment: fixed;
   }
   100% {
     opacity: 1;
     transform: scale(1) translateY(0px);
-    background: url(bg.jpg);
-    background-position: center;
-    background-attachment: fixed;
   }
 }
