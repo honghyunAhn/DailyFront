@@ -30,3 +30,20 @@ header .logo {
   letter-spacing: 2px;
   font-weight: 700;
 }
+header .toggle {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: url(images/menu.png);
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 10000;
+}
+header .toggle.active {
+  background: url(images/close.png);
+  background-size: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+}

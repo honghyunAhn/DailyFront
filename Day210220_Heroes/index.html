@@ -11,8 +11,15 @@
     <section>
         <header>
             <a href="#" class="logo">Heroes</a>
-            <div class="toggle"></div>
+            <div class="toggle" onclick="toggleMenu();"></div>
         </header>
     </section>
+
+    <script>
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            menuToggle.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
