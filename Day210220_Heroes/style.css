@@ -47,3 +47,26 @@ header .toggle.active {
   background-position: center;
   background-repeat: no-repeat;
 }
+.navigation {
+  position: absolute;
+  display: flex;
+  right: 150px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.navigation.active {
+  opacity: 1;
+  visibility: visible;
+}
+.navigation li {
+  list-style: none;
+}
+.navigation li a {
+  color: #111;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 20px;
+  font-weight: 600;
+  display: inline-block;
+}
