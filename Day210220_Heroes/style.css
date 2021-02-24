@@ -119,3 +119,35 @@ header .toggle.active {
 .container .box .imgBx.active:hover img {
   transform: scale(1);
 }
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .sci {
+  position: relative;
+  display: flex;
+}
+.footer .sci li {
+  list-style: none;
+}
+.footer .sci li a {
+  color: #111;
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 20px;
+  display: inline-block;
+}
+.footer .sci li:last-child a {
+  margin-right: 0;
+}
+.copyrightText {
+  color: #111;
+  font-weight: 700;
+}
