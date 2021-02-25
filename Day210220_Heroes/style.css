@@ -159,6 +159,9 @@ header .toggle.active {
   font-weight: 700;
   margin-right: 20px;
   display: inline-block;
+  opacity: 0;
+  animation: slideLeft 0.5s ease-in-out forwards;
+  animation-delay: calc(0.2s * var(--i));
 }
 .footer .sci li:last-child a {
   margin-right: 0;
@@ -166,6 +169,9 @@ header .toggle.active {
 .copyrightText {
   color: #111;
   font-weight: 700;
+  opacity: 0;
+  animation: slideRight 0.5s ease-in-out forwards;
+  animation-delay: 2.5s;
 }
 @keyframes slideRight {
   0% {
