@@ -7,7 +7,6 @@
 }
 body {
   min-height: 1000px;
-  background: #000;
 }
 header {
   position: fixed;
@@ -49,4 +48,14 @@ header ul li a {
   letter-spacing: 2px;
   font-weight: 300;
   transition: 0.6s;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url(img/bg.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
