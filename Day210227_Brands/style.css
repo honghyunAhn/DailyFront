@@ -20,6 +20,11 @@ header {
   z-index: 1000;
   transition: 0.6s;
 }
+header.sticky {
+  padding: 5px 100px;
+  background: #fff;
+  border-bottom: 1px solid (0, 0, 0, 0.1);
+}
 header .logo {
   position: relative;
   font-weight: 700;
@@ -48,6 +53,10 @@ header ul li a {
   letter-spacing: 2px;
   font-weight: 300;
   transition: 0.6s;
+}
+header.sticky .logo,
+header.sticky ul li a {
+  color: #000;
 }
 .banner {
   position: relative;
