@@ -174,3 +174,34 @@ p {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+.workBx {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  max-width: 100%;
+  margin-top: 40px;
+}
+.workBx .brand {
+  position: relative;
+  background: #4978ff;
+  min-height: 300px;
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.workBx .brand:hover {
+  background: #000;
+}
+.workBx .brand a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.workBx .brand:hover a {
+  color: rgba(255, 255, 255, 1);
+}
