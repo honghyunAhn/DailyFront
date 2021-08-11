@@ -2,7 +2,7 @@
 - Frontだけを使用するプロジェクト
 - GIFフォルダに完成したGIFファイルがあります
 <br>
-<br>
+
 # Motivation
 Front勉強をするためのプロジェクト
 <br>
