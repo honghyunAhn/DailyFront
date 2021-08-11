@@ -1,5 +1,6 @@
 # DailyFront
-Front만 사용하는 프로젝트
+- Front만 사용하는 프로젝트
+- GIF 폴더에 완성한 GIF파일이 있습니다
 <br>
 
 # Motivation
